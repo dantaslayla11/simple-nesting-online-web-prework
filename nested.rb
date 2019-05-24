@@ -58,9 +58,8 @@ def dennis_ritchies_language
         }
      }
      
-    fuck= programmer_hash[:dennis_ritchie][:languages].to_s
-    puts fuck
-    fuck
+     programmer_hash[:dennis_ritchie][:languages][0]
+   
 end
 
 def adding_matz
